@@ -36,6 +36,11 @@ Templates and snippets for Python, HTML, CSS, and Markdown files
 [NOTE]: # "Must not have its own title. If any of the folder, repository, or package manager names do not match, there must be a note here as to why."
 [NOTE]: # "This should describe your module in broad terms, generally in just a few paragraphs; more detail of the module's routines or methods, lengthy code examples, or other in-depth material should be given in subsequent sections. Ideally, someone who's slightly familiar with your module should be able to refresh their memory without hitting 'page down'. As your reader continues through the document, they should receive a progressively greater amount of knowledge."
 
+As I create templates and snippets I will outline them here:
+
+- README.md
+  - Setup according to [standard-readme](https://github.com/RichardLitt/standard-readme) standard style.
+
 <!----------------------------------------------------------->
 
 [//]: # "TABLE OF CONTENTS"
