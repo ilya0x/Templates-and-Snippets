@@ -1,6 +1,6 @@
 [//]: # "TITLE"
 
-# Templates and Snippets _(Templated-and-Snippets)_
+# Templates and Snippets _(Templates-and-Snippets)_
 
 [STATUS]: # "Required"
 [NOTE]: # "Title must match repository, folder and package manager names - or it may have another, relevant title with the repository, folder, and package manager title next to it in italics and in parentheses."
