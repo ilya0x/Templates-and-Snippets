@@ -9,13 +9,15 @@
 
 [//]: # "BANNER"
 [STATUS]: # "Optional"
-[NOTE]: # "Comments"
+[NOTE]: # "Must not have its own title, must link to local image in current repository, must appear directly after the title."
+
+![banner](images/banner.png)
 
 <!----------------------------------------------------------->
 
 [//]: # "BADGES"
 [STATUS]: # "Optional"
-[NOTE]: # "Comments"
+[NOTE]: # "Must not have its own title, must be newline delimited."
 
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
@@ -31,7 +33,8 @@ Templates and snippets for Python, HTML, CSS, and Markdown files
 
 [//]: # "LONG DESCRIPTION"
 [STATUS]: # "Optional"
-[NOTE]: # "Comments"
+[NOTE]: # "Must not have its own title. If any of the folder, repository, or package manager names do not match, there must be a note here as to why."
+[NOTE]: # "This should describe your module in broad terms, generally in just a few paragraphs; more detail of the module's routines or methods, lengthy code examples, or other in-depth material should be given in subsequent sections. Ideally, someone who's slightly familiar with your module should be able to refresh their memory without hitting 'page down'. As your reader continues through the document, they should receive a progressively greater amount of knowledge."
 
 <!----------------------------------------------------------->
 
@@ -39,11 +42,26 @@ Templates and snippets for Python, HTML, CSS, and Markdown files
 [STATUS]: # "Required; optional for READMEs shorter than 100 lines."
 [NOTE]: # "Comments"
 
+## Table of Contents
+
+- [Security](#security)
+- [Background](#background)
+- [Install](#install)
+- [Usage](#usage)
+- [Maintainers](#maintainers)
+- [Thanks](#thanks)
+- [License](#license)
+
 <!----------------------------------------------------------->
 
 [//]: # "SECURITY"
 [STATUS]: # "Optional"
 [NOTE]: # "Comments"
+
+## Security
+
+- Templates contain placeholder IP addresses and ports. You will need to replace them for your specifications.
+- Same goes for placeholder usernames and passwords.
 
 <!----------------------------------------------------------->
 
@@ -51,17 +69,31 @@ Templates and snippets for Python, HTML, CSS, and Markdown files
 [STATUS]: # "Optional"
 [NOTE]: # "Comments"
 
+## Background
+
+Once upon a time I decided to setup some snippets and create some templates to speed up my programming in Python, HTML, and CSS. This repository is the result.
+
+I will be updating this repository on regular basys.
+
 <!----------------------------------------------------------->
 
 [//]: # "INSTALL"
 [STATUS]: # "Required by default, optional for documentation repositories."
 [NOTE]: # "Comments"
 
+## Install
+
+This project does not require any additional installations.
+
 <!----------------------------------------------------------->
 
 [//]: # "USAGE"
 [STATUS]: # "Optional"
 [NOTE]: # "Comments"
+
+## Usage
+
+This is only a documentation, templates, and code snippets package.
 
 <!----------------------------------------------------------->
 
@@ -75,11 +107,20 @@ Templates and snippets for Python, HTML, CSS, and Markdown files
 [STATUS]: # "Optional"
 [NOTE]: # "Comments"
 
+## Maintainers
+
+[@ilya0x](https://github.com/ilya0x)
+
 <!----------------------------------------------------------->
 
 [//]: # "THANKS"
 [STATUS]: # "Optional"
 [NOTE]: # "Comments"
+
+## Thanks
+
+[@RichardLitt](https://github.com/RichardLitt) for the standard-readme standard style creation:<br>
+[standard-readme](https://github.com/RichardLitt/standard-readme)
 
 <!----------------------------------------------------------->
 
@@ -92,6 +133,8 @@ Templates and snippets for Python, HTML, CSS, and Markdown files
 [//]: # "LICENSE"
 [STATUS]: # "Required"
 [NOTE]: # "Comments"
+
+## License
 
 SEE LICENSE IN <a href="https://github.com/ilya0x/Templates-and-Snippets/blob/main/LICENSE.txt">LICENSE.txt</a>
 
