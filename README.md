@@ -124,8 +124,7 @@ This is only a documentation, templates, and code snippets package.
 
 ## Thanks
 
-[@RichardLitt](https://github.com/RichardLitt) for the standard-readme standard style creation:<br>
-[standard-readme](https://github.com/RichardLitt/standard-readme)
+[@RichardLitt](https://github.com/RichardLitt) for the [standard-readme](https://github.com/RichardLitt/standard-readme) standard style creation.
 
 <!----------------------------------------------------------->
 
