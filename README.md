@@ -93,6 +93,6 @@ Templates and snippets for Python, HTML, CSS, and Markdown files
 [STATUS]: # "Required"
 [NOTE]: # "Comments"
 
-SEE LICENSE IN <LICENSE.txt>
+SEE LICENSE IN <a href="https://github.com/ilya0x/Templates-and-Snippets/blob/main/LICENSE.txt">LICENSE.txt</a>
 
 <!----------------------------------------------------------->
