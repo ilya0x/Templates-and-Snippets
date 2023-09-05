@@ -40,3 +40,59 @@ Templates and snippets for Python, HTML, CSS, and Markdown files
 [NOTE]: # "Comments"
 
 <!----------------------------------------------------------->
+
+[//]: # "SECURITY"
+[STATUS]: # "Optional"
+[NOTE]: # "Comments"
+
+<!----------------------------------------------------------->
+
+[//]: # "BACKGROUND"
+[STATUS]: # "Optional"
+[NOTE]: # "Comments"
+
+<!----------------------------------------------------------->
+
+[//]: # "INSTALL"
+[STATUS]: # "Required by default, optional for documentation repositories."
+[NOTE]: # "Comments"
+
+<!----------------------------------------------------------->
+
+[//]: # "USAGE"
+[STATUS]: # "Optional"
+[NOTE]: # "Comments"
+
+<!----------------------------------------------------------->
+
+[//]: # "API"
+[STATUS]: # "Optional"
+[NOTE]: # "Comments"
+
+<!----------------------------------------------------------->
+
+[//]: # "MAINTAINER(S)"
+[STATUS]: # "Optional"
+[NOTE]: # "Comments"
+
+<!----------------------------------------------------------->
+
+[//]: # "THANKS"
+[STATUS]: # "Optional"
+[NOTE]: # "Comments"
+
+<!----------------------------------------------------------->
+
+[//]: # "CONTRIBUTING"
+[STATUS]: # "Required"
+[NOTE]: # "Comments"
+
+<!----------------------------------------------------------->
+
+[//]: # "LICENSE"
+[STATUS]: # "Required"
+[NOTE]: # "Comments"
+
+SEE LICENSE IN <LICENSE.txt>
+
+<!----------------------------------------------------------->
