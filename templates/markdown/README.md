@@ -44,7 +44,6 @@
 - [Background](#background)
 - [Install](#install)
 - [Usage](#usage)
-  - [Generator](#generator)
 - [Badge](#badge)
 - [API](#api)
 - [Maintainers](#maintainers)
