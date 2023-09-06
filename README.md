@@ -36,57 +36,6 @@ Templates and snippets for Python, HTML, CSS & SASS, and Markdown.
 [NOTE]: # "Must not have its own title. If any of the folder, repository, or package manager names do not match, there must be a note here as to why."
 [NOTE]: # "This should describe your module in broad terms, generally in just a few paragraphs. Ideally, someone who's slightly familiar with your module should be able to refresh their memory without hitting 'page down'. As your reader continues through the document, they should receive a progressively greater amount of knowledge."
 
-<b>SNIPPETS:</b>
-
-Go to Settings > User Snippets, open the appropriate language's json file and paste the content of the matching snippets file bellow:
-
-[python.json](https://github.com/ilya0x/Templates-and-Snippets/blob/main/snippets/python.json)
-
-[html.json](https://github.com/ilya0x/Templates-and-Snippets/blob/main/snippets/html.json)
-
-[css.json](https://github.com/ilya0x/Templates-and-Snippets/blob/main/snippets/css.json)
-
-[sass.json](https://github.com/ilya0x/Templates-and-Snippets/blob/main/snippets/sass.json)
-
-[markdown.json](https://github.com/ilya0x/Templates-and-Snippets/blob/main/snippets/markdown.json)
-
-<b>TEMPLATES:</b>
-
-- Python:
-  - <i>generic</i>:
-    - main.py
-    - app.py
-  - Flask:
-    - main.py
-  - PyGame:
-    - app.py
-  - PySide6:
-    - app.py
-    - appwindow.py
-    - main.py
-  - PyTorch:
-    - main.py
-    - model.py
-    - TorchAudio
-      - app.py
-        <br>
-        <br>
-- HTML:
-  - <i>generic</i>:
-    - index.html
-  - Flask:
-    - template.html
-      <br>
-      <br>
-- CSS & SASS:
-  - stylesheet.css
-  - template.sass
-    <br>
-    <br>
-- Markdown:
-  - [README.md](https://github.com/ilya0x/Templates-and-Snippets/blob/main/templates/markdown/README.md)
-    - Setup according to [standard-readme](https://github.com/RichardLitt/standard-readme) standard style.
-
 <!----------------------------------------------------------->
 
 [//]: # "TABLE OF CONTENTS"
@@ -99,6 +48,8 @@ Go to Settings > User Snippets, open the appropriate language's json file and pa
 - [<b>Background</b>](#background)
 - [<b>Install</b>](#install)
 - [<b>Usage</b>](#usage)
+- [<b>Snippets</b>](#snippets)
+- [<b>Templates</b>](#templates)
 - [<b>Maintainers</b>](#maintainers)
 - [<b>Thanks</b>](#thanks)
 - [<b>License</b>](#license)
@@ -145,6 +96,92 @@ This project does not require any additional installations.
 ## Usage
 
 This is only a documentation, templates, and code snippets package.
+
+<!----------------------------------------------------------->
+
+[//]: # "Snippets"
+[STATUS]: # "Optional"
+[NOTE]: # "Comments"
+
+## Snippets
+
+Go to Settings > User Snippets, open the appropriate language's json file and paste the content of the matching snippets file bellow:
+
+![python-logo](images/python.png) [python.json](https://github.com/ilya0x/Templates-and-Snippets/blob/main/snippets/python.json)
+
+![html5-logo](images/html5.png) [html.json](https://github.com/ilya0x/Templates-and-Snippets/blob/main/snippets/html.json)
+
+![css3-logo](images/css3.png) [css.json](https://github.com/ilya0x/Templates-and-Snippets/blob/main/snippets/css.json)
+
+![sass5-logo](images/sass-5.png) [sass.json](https://github.com/ilya0x/Templates-and-Snippets/blob/main/snippets/sass.json)
+
+![markdown-logo](images/markdown.png) [markdown.json](https://github.com/ilya0x/Templates-and-Snippets/blob/main/snippets/markdown.json)
+
+<!----------------------------------------------------------->
+
+[//]: # "Templates"
+[STATUS]: # "Optional"
+[NOTE]: # "Comments"
+
+## Templates
+
+![python-logo](images/python.png) Python:
+
+- <i>generic</i>:
+  - [main.py]()
+  - [app.py]()
+- Flask:
+  - [run.py]()
+  - [config.py]()
+- Django:
+  - [manage.py]() - This is a command-line utility to interact with the Django project.
+  - [settings.py]() - Project settings.
+  - [urls.py]() - Defines the app’s URL patterns.
+  - [admin.py]() - Configures the Django admin interface for managing app models.
+  - [apps.py]() - App configuration and metadata.
+  - [models.py]() - Defines the app’s data models.
+  - [views.py]() - Contains the views or controller functions for handling HTTP requests.
+  - [forms.py]() - Includes form classes if the app requires custom forms.
+- PyGame:
+  - [game-name.py]()
+- PySide6:
+  - [appwindow.py]()
+  - [main.py]()
+- PyTorch:
+  - [main.py]()
+  - [model.py]()
+  - TorchAudio:
+    - [app.py]()
+      <br>
+
+![html5-logo](images/html5.png) HTML:
+
+- <i>generic</i>:
+  - [index-simple.html]()
+  - [index-long.html]()
+- Flask framework:
+  - [base.html]()
+  - [index.html]()
+- Django framework:
+  - [base.html]()
+  - [header.html]()
+  - [footer.html]()
+    <br>
+
+![css3-logo](images/css3.png) CSS:
+
+- [styles.css](styles/stylesheets/styles.css)
+  <br>
+
+![sass5-logo](images/sass-5.png) SASS:
+
+- [template.sass](style/sass/template.sass)
+  <br>
+
+![markdown-logo](images/markdown.png) Markdown:
+
+- [README.md](https://github.com/ilya0x/Templates-and-Snippets/blob/main/templates/markdown/README.md)
+  - Setup according to [standard-readme](https://github.com/RichardLitt/standard-readme) standard style.
 
 <!----------------------------------------------------------->
 
