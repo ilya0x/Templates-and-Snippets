@@ -56,9 +56,10 @@ TEMPLATES:
 - HTML:
   - generic:
     - index.html
-  - Flask: - template.html
-    <br>
-    <br>
+  - Flask:
+    - template.html
+      <br>
+      <br>
 - CSS & SASS:
   - stylesheet.css
   - template.sass
