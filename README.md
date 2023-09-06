@@ -34,7 +34,21 @@ Templates and snippets for Python, HTML, CSS & SASS, and Markdown.
 [//]: # "LONG DESCRIPTION"
 [STATUS]: # "Optional"
 [NOTE]: # "Must not have its own title. If any of the folder, repository, or package manager names do not match, there must be a note here as to why."
-[NOTE]: # "This should describe your module in broad terms, generally in just a few paragraphs; more detail of the module's routines or methods, lengthy code examples, or other in-depth material should be given in subsequent sections. Ideally, someone who's slightly familiar with your module should be able to refresh their memory without hitting 'page down'. As your reader continues through the document, they should receive a progressively greater amount of knowledge."
+[NOTE]: # "This should describe your module in broad terms, generally in just a few paragraphs. Ideally, someone who's slightly familiar with your module should be able to refresh their memory without hitting 'page down'. As your reader continues through the document, they should receive a progressively greater amount of knowledge."
+
+<b>SNIPPETS:</b>
+
+Go to Settings > User Snippets, open the appropriate language's json file and paste the content of the matching snippets file bellow:
+
+[python.json](https://github.com/ilya0x/Templates-and-Snippets/blob/main/snippets/python.json)
+
+[html.json](https://github.com/ilya0x/Templates-and-Snippets/blob/main/snippets/html.json)
+
+[css.json](https://github.com/ilya0x/Templates-and-Snippets/blob/main/snippets/css.json)
+
+[sass.json](https://github.com/ilya0x/Templates-and-Snippets/blob/main/snippets/sass.json)
+
+[markdown.json](https://github.com/ilya0x/Templates-and-Snippets/blob/main/snippets/markdown.json)
 
 <b>TEMPLATES:</b>
 
@@ -108,7 +122,7 @@ Templates and snippets for Python, HTML, CSS & SASS, and Markdown.
 
 ## Background
 
-Once upon a time I decided to setup some snippets and create some templates to speed up my programming in Python, HTML, and CSS. This repository is the result.
+Python programmers tend to not enjoy working with HTML and CSS - and who can blame them? Most of it is reused from project to project with just some basic changes. [Emmet](https://docs.emmet.io/cheat-sheet/) is a great web-developer’s toolkit that takes the snippets idea to a whole new level. This project's goal is to create complete file templates and expand on Emmet snippets to eliminate as much HTML and CSS work as possible, maximizing Python programmers' use of time on actually programming in Python.
 
 I will be updating this repository on regular basys.
 
