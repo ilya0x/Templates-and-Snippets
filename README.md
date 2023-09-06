@@ -36,25 +36,29 @@ Templates and snippets for Python, HTML, CSS & SASS, and Markdown.
 [NOTE]: # "Must not have its own title. If any of the folder, repository, or package manager names do not match, there must be a note here as to why."
 [NOTE]: # "This should describe your module in broad terms, generally in just a few paragraphs; more detail of the module's routines or methods, lengthy code examples, or other in-depth material should be given in subsequent sections. Ideally, someone who's slightly familiar with your module should be able to refresh their memory without hitting 'page down'. As your reader continues through the document, they should receive a progressively greater amount of knowledge."
 
-TEMPLATES:
+<b>TEMPLATES:</b>
 
 - Python:
-  - generic:
+  - <i>generic</i>:
     - main.py
     - app.py
   - Flask:
     - main.py
-  - Pygame:
+  - PyGame:
     - app.py
   - PySide6:
     - app.py
     - appwindow.py
     - main.py
-  - PyTorch: - TorchAudio \* app.py - modep.py
-    <br>
-    <br>
+  - PyTorch:
+    - main.py
+    - model.py
+    - TorchAudio
+      - app.py
+        <br>
+        <br>
 - HTML:
-  - generic:
+  - <i>generic</i>:
     - index.html
   - Flask:
     - template.html
@@ -77,13 +81,13 @@ TEMPLATES:
 
 ## Table of Contents
 
-- [Security](#security)
-- [Background](#background)
-- [Install](#install)
-- [Usage](#usage)
-- [Maintainers](#maintainers)
-- [Thanks](#thanks)
-- [License](#license)
+- [<b>Security</b>](#security)
+- [<b>Background</b>](#background)
+- [<b>Install</b>](#install)
+- [<b>Usage</b>](#usage)
+- [<b>Maintainers</b>](#maintainers)
+- [<b>Thanks</b>](#thanks)
+- [<b>License</b>](#license)
 
 <!----------------------------------------------------------->
 
