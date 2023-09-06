@@ -170,15 +170,15 @@ Go to Settings > User Snippets, open the appropriate language's json file and pa
 
 ![css3-logo](images/css3.png) CSS:
 
-- [styles.css](styles/stylesheets/styles.css)
+- [styles.css](templates/styles/stylesheets/styles.css)
   <br>
 
 ![sass5-logo](images/sass-5.png) SASS:
 
-- [template.sass](style/sass/template.sass)
+- [template.sass](templates/style/sass/template.sass)
   <br>
 
-![markdown-logo](images/markdown.png) Markdown:
+![markdown-logo](templates/images/markdown.png) Markdown:
 
 - [README.md](https://github.com/ilya0x/Templates-and-Snippets/blob/main/templates/markdown/README.md)
   - Setup according to [standard-readme](https://github.com/RichardLitt/standard-readme) standard style.
