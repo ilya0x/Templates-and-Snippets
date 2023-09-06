@@ -108,11 +108,11 @@ This is only a documentation, templates, and code snippets package.
 
 <!----------------------------------------------------------->
 
-[//]: # "MAINTAINER(S)"
+[//]: # "MAINTAINER"
 [STATUS]: # "Optional"
 [NOTE]: # "Comments"
 
-## Maintainers
+## Maintainer
 
 [@ilya0x](https://github.com/ilya0x)
 
@@ -139,6 +139,8 @@ This is only a documentation, templates, and code snippets package.
 [NOTE]: # "Comments"
 
 ## License
+
+MIT License
 
 SEE LICENSE IN <a href="https://github.com/ilya0x/Templates-and-Snippets/blob/main/LICENSE.txt">LICENSE.txt</a>
 

@@ -36,7 +36,7 @@
 
 [//]: # "TABLE OF CONTENTS"
 [STATUS]: # "Required; optional for READMEs shorter than 100 lines."
-[NOTE]: # "Comments"
+[NOTE]: # "Must link to all Markdown sections in the file, must start with the next section, must be at least one-depth and capture all ## headings."
 
 ## Table of Contents
 
@@ -55,55 +55,57 @@
 
 [//]: # "SECURITY"
 [STATUS]: # "Optional"
-[NOTE]: # "Comments"
+[NOTE]: # "May go here if it is important to highlight security concerns."
 
 <!----------------------------------------------------------->
 
 [//]: # "BACKGROUND"
 [STATUS]: # "Optional"
-[NOTE]: # "Comments"
+[NOTE]: # "Cover motivation and intellectual provenance (sources of influence). Cover abstract dependencies."
 
 <!----------------------------------------------------------->
 
 [//]: # "INSTALL"
 [STATUS]: # "Required by default, optional for documentation repositories."
-[NOTE]: # "Comments"
+[NOTE]: # "Requirements: Code block illustrating how to install.
+Subsections: Dependencies. Required if there are unusual dependencies or dependencies that must be manually installed.
+Suggestions: Link to prerequisite sites for programming language: npmjs, godocs, etc. Include any system-specific information needed for installation. An Updating section would be useful for most packages, if there are multiple versions which the user may interface with."
 
 <!----------------------------------------------------------->
 
 [//]: # "USAGE"
 [STATUS]: # "Optional"
-[NOTE]: # "Comments"
+[NOTE]: # "Code block illustrating common usage. Cover basic choices that may affect usage."
 
 <!----------------------------------------------------------->
 
 [//]: # "API"
 [STATUS]: # "Optional"
-[NOTE]: # "Comments"
+[NOTE]: # "Describe exported functions and objects. Describe signatures, return types, callbacks, and events. Cover types covered where not obvious. Describe caveats. If using an external API generator (like go-doc, js-doc, or so on), point to an external API.md file."
 
 <!----------------------------------------------------------->
 
 [//]: # "MAINTAINER(S)"
 [STATUS]: # "Optional"
-[NOTE]: # "Comments"
+[NOTE]: # "List maintainer(s) for a repository, along with one way of contacting them (e.g. GitHub link or email)."
 
 <!----------------------------------------------------------->
 
 [//]: # "THANKS"
 [STATUS]: # "Optional"
-[NOTE]: # "Comments"
+[NOTE]: # "Must be called Thanks, Credits or Acknowledgements. State anyone or anything that significantly helped with the development of your project. State public contact hyper-links if applicable."
 
 <!----------------------------------------------------------->
 
 [//]: # "CONTRIBUTING"
 [STATUS]: # "Required"
-[NOTE]: # "Comments"
+[NOTE]: # "State where users can ask questions. State whether PRs are accepted. List any requirements for contributing; for instance, having a sign-off on commits. Link to a CONTRIBUTING file -- if there is one. Link to a CONTRIBUTING file -- if there is one."
 
 <!----------------------------------------------------------->
 
 [//]: # "LICENSE"
 [STATUS]: # "Required"
-[NOTE]: # "Comments"
+[NOTE]: # "State license full name or identifier, as listed on the SPDX license list. For unlicensed repositories, add UNLICENSED. For more details, add SEE LICENSE IN <filename> and link to the license file. (These requirements were adapted from npm). State license owner. Must be last section."
 
 [EXAMPLE]: # "SEE LICENSE IN <a href="https://github.com/ilya0x/Templates-and-Snippets/blob/main/LICENSE.txt">LICENSE.txt</a>"
 
