@@ -44,12 +44,12 @@ Templates and snippets for Python, HTML, CSS & SASS, and Markdown.
 
 ## Table of Contents
 
-- [<b>Security</b>](#security)
 - [<b>Background</b>](#background)
 - [<b>Install</b>](#install)
 - [<b>Usage</b>](#usage)
 - [<b>Snippets</b>](#snippets)
 - [<b>Templates</b>](#templates)
+- [<b>Security</b>](#security)
 - [<b>Maintainers</b>](#maintainers)
 - [<b>Thanks</b>](#thanks)
 - [<b>License</b>](#license)
