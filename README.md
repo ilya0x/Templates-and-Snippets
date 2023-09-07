@@ -69,7 +69,7 @@ Python programmers tend to not enjoy working with HTML and CSS - and who can bla
 
 To further facilitate fast Python programming, there is an ever-expanding list of Python templates for various frameworks and modules. As I expand my repertoire, I will be adding additional templates to the collection.
 
-This repository is updated on regular basis.
+> This repository is updated on regular basis.
 
 <!----------------------------------------------------------->
 
@@ -101,7 +101,7 @@ This is only a documentation, templates, and code snippets package.
 
 ## Snippets
 
-Go to Settings > User Snippets, open the appropriate language's json file and paste the content of the matching snippets file bellow:
+Go to `Settings -> User Snippets`, open the appropriate language's json file and paste the content of the matching snippets file bellow:
 
 ![html5-logo](images/html5.png) [html.json](https://github.com/ilya0x/Templates-and-Snippets/blob/main/snippets/html.json)
 
