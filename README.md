@@ -20,6 +20,7 @@
 [NOTE]: # "Must not have its own title, must be newline delimited."
 
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
+[![MIT-license](https://img.shields.io/badge/License-MIT-brightgreen.svg?style=flat-square)](https://github.com/ilya0x/Templates-and-Snippets/blob/main/LICENSE.txt)
 
 <!----------------------------------------------------------->
 
