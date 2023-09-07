@@ -83,6 +83,8 @@ Suggestions: Link to prerequisite sites for programming language: npmjs, godocs,
 
 This project does not require any additional installations.
 
+> I use and recommend Visual Studio Code
+
 <!----------------------------------------------------------->
 
 [//]: # "USAGE"
@@ -120,6 +122,9 @@ Go to `Settings -> User Snippets`, open the appropriate language's json file and
 [NOTE]: # "Extra Section"
 
 ## Templates
+
+- All templates include extensive notes about each line of code and what is requred to be entered/edited by the user.
+- Each template can be called via its Snippet; the snippets do not contain the extensive notes and automatically take the cursor to the sections requiring input from user.
 
 ![html5-logo](images/html5.png) HTML:
 
