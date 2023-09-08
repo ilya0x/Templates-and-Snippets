@@ -105,15 +105,19 @@ This is only a documentation, templates, and code snippets package.
 
 Go to `Settings -> User Snippets`, open the appropriate language's json file and paste the content of the matching snippets file bellow:
 
-![html5-logo](images/html5.png) [html.json](https://github.com/ilya0x/Templates-and-Snippets/blob/main/snippets/html.json)
+![css3-logo](images/css3.png) [css.json](snippets/css.json)
 
-![css3-logo](images/css3.png) [css.json](https://github.com/ilya0x/Templates-and-Snippets/blob/main/snippets/css.json)
+![html5-logo](images/html5.png) [html.json](snippets/html.json)
 
-![sass5-logo](images/sass-5.png) [sass.json](https://github.com/ilya0x/Templates-and-Snippets/blob/main/snippets/sass.json)
+![markdown-logo](images/markdown.png) [markdown.json](snippets/markdown.json)
 
-![markdown-logo](images/markdown.png) [markdown.json](https://github.com/ilya0x/Templates-and-Snippets/blob/main/snippets/markdown.json)
+🔥 [mojo.json](snippets/markdown.json)
 
-![python-logo](images/python.png) [python.json](https://github.com/ilya0x/Templates-and-Snippets/blob/main/snippets/python.json)
+> [Mojo🔥](https://www.modular.com/mojo) — the programming language for all AI developers
+
+![python-logo](images/python.png) [python.json](snippets/python.json)
+
+![sass5-logo](images/sass-5.png) [sass.json](snippets/sass.json)
 
 <!----------------------------------------------------------->
 
