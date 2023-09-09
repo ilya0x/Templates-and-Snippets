@@ -69,6 +69,8 @@ Python programmers tend to not enjoy working with HTML and CSS - and who can bla
 
 To further facilitate fast Python programming, there is an ever-expanding list of Python templates for various frameworks and modules. As I expand my repertoire, I will be adding additional templates to the collection.
 
+I have also just added [Mojo](https://www.modular.com/mojo) templates to this collection. As I learn the Mojo language I will be adding more templates and snippets for it.
+
 > This repository is updated on regular basis.
 
 <!----------------------------------------------------------->
