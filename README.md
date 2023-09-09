@@ -28,7 +28,7 @@
 [STATUS]: # "Required"
 [NOTE]: # "less than 120 characters, match the description in the packager manager's description field, Must match GitHub's description"
 
-Templates and snippets for Python, HTML, CSS & SASS, and Markdown.
+Templates and snippets for Python, Mojo, HTML, CSS, SASS, and Markdown.
 
 <!----------------------------------------------------------->
 
