@@ -113,7 +113,7 @@ Go to `Settings -> User Snippets`, open the appropriate language's json file and
 
 ![markdown-logo](images/markdown.png) [markdown.json](snippets/markdown.json)
 
-🔥 [mojo.json](snippets/markdown.json)
+🔥 [mojo.json](snippets/mojo.json)
 
 > [Mojo🔥](https://www.modular.com/mojo) — the programming language for all AI developers
 
