@@ -73,6 +73,8 @@ I have also just added [Mojo](https://www.modular.com/mojo) templates to this co
 
 > This repository is updated on regular basis.
 
+> Added: `notes.md` in each [templates](templates/) folder with ideas for snippets and templates content, with some notes on each language.
+
 <!----------------------------------------------------------->
 
 [//]: # "INSTALL"
