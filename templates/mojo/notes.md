@@ -1,13 +1,16 @@
 ## import Python module:
 
-"prefix": "py-mod-import",
 <kbd> <br>
 from PythonInterface import Python
 <br>
 <br>
+<br>
 \# this is equivalent to Pyhon's 'import module_name as importedModule':
 <br>
+<br>
 let importedModule = Python.import_module("module_name")
+<br>
+<br>
 <br>
 \# now importedModule can be used like in Python.
 <br>
