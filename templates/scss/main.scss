@@ -1,0 +1,58 @@
+@import './resets';
+//! does NOT need file extension
+@import './variables';
+
+@function weight($weight-name) {
+  @return map-get($font-weights, $weight-name);
+}
+
+@mixin flexCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin theme($light-theme: true) {
+  @if $light-theme {
+    //! light theme styles
+    background: lighten($variable-one, $amount: 100%);
+    color: darken($variable-two, $amount: 100%);
+  }
+}
+
+@mixin mobile {
+  @media (max-width: $mobile) {
+    @content;
+  }
+}
+
+body {
+  background: $variable-one;
+  color: $variable-two;
+  font-weight: map-get($font-weights, 'regular')
+}
+
+.main {
+  @include flexCenter;
+  //! "mixes in" flex related snippet of style
+  width: 80%;
+  margin: 0 auto;
+
+  #{&}__paragraph {
+    //! "&" = the parent (ie .main). Use interpolation with "#" to wrap "&" to get everything before it
+    font-weight: weight(bold);
+    //! using function and passing in the font-weight choice from variables partial file
+
+    &:hover {
+      color: $variable-three;
+    }
+  }
+
+  @include mobile{
+    flex-direction: column;
+  }
+}
+
+.light {
+  @include theme($light-theme: true);
+}
