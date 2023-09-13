@@ -1,10 +1,28 @@
 # SCSS Notes
 
+<h3> Table of Contents</h3>
+
+- <b>[SCSS vs SASS](#scss-vs-sass)</b>
+- <b>[Generated Files using Live Sass Compiler extension](#generated-files-using-live-sass-compiler-extension)</b>
+- <b>[SCSS Variables](#scss-variables)</b>
+- <b>[Maps](#maps)</b>
+- <b>[Nesting](#nesting)</b>
+- <b>[Separating files - modularizing your SCSS files](#separating-files---modularizing-your-scss-files)</b>
+- <b>[Functions](#functions)</b>
+- <b>[Mixin](#mixin)</b>
+- <b>[Extend](#extend)</b>
+- <b>[Math Operations](#math-operations)</b>
+<br>
+<br>
+<br>
+
 ## SCSS vs SASS
 
-- SCSS - Sassy CSS, SCSS Syntax: uses curly braces & semicolons
+- SCSS - Sassy CSS, SCSS Syntax: uses curly braces & semicolons same as CSS
 - original Sass: Indented Syntax: uses indentation, .sass extension
--
+
+> I will be using `*.sass` file extension as it allows use of indentation rather
+> then brackets, which is more Pythonic...
 
 ## Generated Files using Live Sass Compiler extension
 
@@ -69,7 +87,13 @@ map-get(#font-weights, bold);`<br>
 
 - a partial SCSS file is indicated by name starting with `underscore`.
 - separate resets and variables into their corresponding partials files.
-- use `@import './file-name';` to include partials files.<br>
+
+> Do NOT use `@import './file-name';` to include partials files.
+
+- use `@use './file-name';` to include partials files.
+  - it prevents collisions by requiring specified namespace:<br>
+  `file-name.$style-name` rather than just `$style-name`
+
 <i>Note:</i> does NOT need file extension.
 
 ## Functions
