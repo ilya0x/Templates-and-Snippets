@@ -3,7 +3,10 @@
       "allowed_elements": [
         "br",
         "b",
-        "i"
+        "i",
+        "a",
+        "h2",
+        "h3"
       ]
     }
   }

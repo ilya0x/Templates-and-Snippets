@@ -4,14 +4,19 @@
   padding: 0;
 }
 
-.style-card-name {
+.card {
   font-size: 1.5rem;
   color: #0000ff;
+  padding: 1em;
+}
+@media (min-width: 45em) {
+  .card {
+    padding: 2em;
+  }
 }
 
 body {
-  background: "$variable-one";
-  color: "t.$card-name";
+  background: #000000;
   font-weight: 400;
 }
 

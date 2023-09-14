@@ -1,21 +1,60 @@
-# SASS Notes
+# ![sass5-logo](/images/sass-5.png) SASS Notes
+
+### Todos
+
+- [ ] Convert all code to code blocks
+- [ ] Create Toggle for all Benefits
+
+<br>
 
 <b>Benefits for continuing to use SASS as many preprocessor features get integrated
 into the native CSS spec:</b>
 
+<details>
+<summary><b>Sass Module System</b></summary>
+
+- Separating `.sass` files into partials `_name.sass` to keep all elements
+    separated and sorted
+  - Use `@use` to include partials and `_index.sass` in `main.sass`
+  - Using `@forward` in `_index.sass` files to consolidate partials for `@use`.
+
+- Functions:
+  - Compute and return values
+  - There are included functions with SASS, like
+    `rgba(#color, transparency-level)` for calculating rgba
+    transparency color values from hex values or `mix(color1, color2, n%)` for
+    mixing two colors with `n%` saturation of `color2`
+
+</details>
+
+<br>
+
 - Mixin:
   - none of the `@mixin` functionality is present in native CSS
   - no plans for integration
+
 - Loops:
+  - allows the ability to create custom flexbox grids and make them responsive
+    with `@media` queries
   - `@for $i from 0 through 9` to iterate over `i` elements
   - no plans for integration
+
 - `@if` `@else if` `@else` statements:
   - Example: use to set line spacing depending on font size
   - can be used for custom messaging for debugging
   - no plans for integration
+
 - Nesting:
-  - being able to use multiple selectors, `&__name`, is not supported in CSS yet.
+  - being able to use multiple selectors, `&-name`, is not supported in CSS yet.
   - planed to be integrated into native CSS spec.
+
+- Indentations use:
+  - using `.sass` file extension we can use indentation instead
+    of curly brackets and semicolons!<br>
+    `Pythonites and YAMLites rejoice!`
+
+<br>
+<br>
 
 ## Table of Contents
 
@@ -69,13 +108,13 @@ into the native CSS spec:</b>
 
 ## SCSS Variables
 
-`$variable-one: #000000;`<br>
-`$variable-two: pink;`
+```scss
+$variable-one: #000000
+$variable-two: pink
 
-`body {`<br>
-&nbsp;&nbsp;&nbsp;&nbsp;`background: $variable-one;`<br>
-`}`
-<br>
+body
+  background: $variable-one
+```
 
 <br>
 <br>
@@ -90,15 +129,15 @@ Using a variable, assign key-value pairs in parentheses:
 
 Example:
 
-`$font-weights: (`<br>
-&nbsp;&nbsp;&nbsp;&nbsp;`"regular": 400,`<br>
-&nbsp;&nbsp;&nbsp;&nbsp;`"medium": 500,`<br>
-&nbsp;&nbsp;&nbsp;&nbsp;`"bold": 700,`<br>
-`);`
+```scss
+$font-weights:
+  "regular": 400,
+  "medium": 500,
+  "bold": 700,
 
-`body {`<br>
-&nbsp;&nbsp;&nbsp;&nbsp;`font-weight: map-get(#font-weights, regular)`
-<br>
+body
+  font-weight: map-get(#font-weights, regular)
+```
 
 <br>
 <br>
@@ -115,24 +154,20 @@ Example:
 
 Example:
 
-`.main {`<br>
-&nbsp;&nbsp;&nbsp;&nbsp;`width: 80%;`<br>
-&nbsp;&nbsp;&nbsp;&nbsp;`margin: 0 auto;`<br>
-<br>
-&nbsp;&nbsp;&nbsp;&nbsp;`/* "&" = the parent (ie .main).`<br>
-&nbsp;&nbsp;&nbsp;&nbsp;`Use interpolation with "#" to wrap "&" to get
-everything before it */`<br>
-<br>
-&nbsp;&nbsp;&nbsp;&nbsp;`#{&}__paragraph {`<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`font-weight:
-map-get(#font-weights, bold);`<br>
-<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`&:hover {`<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`color: $variable-two;`<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`}`<br>
-&nbsp;&nbsp;&nbsp;&nbsp;`}`<br>
-`}`
-<br>
+```scss
+.main
+  width: 80%  
+  margin: 0 auto  
+
+  /* "&" = the parent (ie .main).
+  Use interpolation with "#" to wrap "&" to get
+  everything before it */
+  #{&}-paragraph
+    font-weight: map-get(#font-weights, bold)
+
+    &:hover
+      color: $variable-two
+```
 
 <br>
 <br>
@@ -197,15 +232,17 @@ Use `@use` and `@forward`
 
 Example:
 
-`@function weight(&weight-name) {`<br>
-&nbsp;&nbsp;&nbsp;&nbsp;`@return map-get($font-weights, &weight-name);`<br>
-`}`<br>
+```scss
+@function weight(&weight-name)
+  @return map-get($font-weights, &weight-name)
+```
 
 - using function and passing in the `font-weight` choice (from `_variables.scss`
   partial file):
 
-  `font-weight: weight(bold);`
-<br>
+```scss
+font-weight: weight(bold)
+```
 
 <br>
 <br>
@@ -284,7 +321,7 @@ Example:
 
 `.main {`<br>
 &nbsp;&nbsp;&nbsp;&nbsp;`...`<br>
-&nbsp;&nbsp;&nbsp;&nbsp;`#{&}__paragraph1;`<br>
+&nbsp;&nbsp;&nbsp;&nbsp;`#{&}-paragraph1;`<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`font-weight: weight(bold);`<br>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`&:hover {`<br>
@@ -292,9 +329,9 @@ Example:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`}`<br>
 &nbsp;&nbsp;&nbsp;&nbsp;`}`<br>
 
-&nbsp;&nbsp;&nbsp;&nbsp;`#{&}__paragraph2;`<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`@extend .main__paragraph1;`
-extends all styles from __paragraph1<br>
+&nbsp;&nbsp;&nbsp;&nbsp;`#{&}-paragraph2;`<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`@extend .main-paragraph1;`
+extends all styles from -paragraph1<br>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`&:hover {`<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`color:
