@@ -1,9 +1,10 @@
-@use 'abstracts/resets'
-//! does NOT need file extension
-@use 'abstracts/variables'
 
+//! does NOT need file extension:
+@use 'components' as c
+@use 'theme' as t
+  
 @function weight($weight-name)
-  @return map-get(variables.$font-weights, $weight-name)
+  @return map-get(c.$font-weights, $weight-name)
 
 @mixin flexCenter
   display: flex
@@ -13,18 +14,18 @@
 @mixin theme($light-theme: true)
   @if $light-theme
     //! light theme styles
-    background: lighten(variables.$variable-one, $amount: 100%)
-    color: darken(variables.$variable-two, $amount: 100%)
+    background: lighten(c.$variable-one, $amount: 100%)
+    color: darken(c.$variable-two, $amount: 100%)
 
 @mixin mobile
-  @media (max-width: variables.$mobile)
+  @media (max-width: c.$mobile)
     @content
 
 
 body
-  background: '$variable-one'
-  color: '$variable-two'
-  font-weight: map-get(variables.$font-weights, regular)
+  background: c.$variable-one
+  color: t.$card-name
+  font-weight: map-get(c.$font-weights, regular)
 
 
 .main
@@ -39,7 +40,7 @@ body
     //! using function and passing in the font-weight choice from variables partial file
 
     &:hover
-      color: variables.$variable-three
+      color: c.$variable-three
     
 
   @include mobile
@@ -48,3 +49,4 @@ body
     
 .light
   @include theme($light-theme: true)
+

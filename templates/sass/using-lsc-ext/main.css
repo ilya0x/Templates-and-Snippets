@@ -4,9 +4,14 @@
   padding: 0;
 }
 
+.style-card-name {
+  font-size: 1.5rem;
+  color: #0000ff;
+}
+
 body {
   background: "$variable-one";
-  color: "$variable-two";
+  color: "t.$card-name";
   font-weight: 400;
 }
 

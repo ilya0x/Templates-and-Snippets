@@ -75,7 +75,14 @@ I have also just added [Mojo](https://www.modular.com/mojo) templates to this co
 
 > Added: `notes.md` in each [templates](templates/) folder with ideas for snippets and templates content, with some notes on each language.
 
-<!----------------------------------------------------------->
+<br>
+<br>
+
+[Back to Table of Contents](#table-of-contents)
+<br>
+<br>
+
+<!--------------------------------------------------->
 
 [//]: # "INSTALL"
 [STATUS]: # "Required by default, optional for documentation repositories."
@@ -89,6 +96,13 @@ This project does not require any additional installations.
 
 > I use and recommend Visual Studio Code
 
+<br>
+<br>
+
+[Back to Table of Contents](#table-of-contents)
+<br>
+<br>
+
 <!----------------------------------------------------------->
 
 [//]: # "USAGE"
@@ -98,6 +112,13 @@ This project does not require any additional installations.
 ## Usage
 
 This is only a documentation, templates, and code snippets package.
+
+<br>
+<br>
+
+[Back to Table of Contents](#table-of-contents)
+<br>
+<br>
 
 <!----------------------------------------------------------->
 
@@ -122,6 +143,13 @@ Go to `Settings -> User Snippets`, open the appropriate language's json file and
 ![python-logo](images/python.png) [python.json](snippets/python.json)
 
 ![sass5-logo](images/sass-5.png) [sass.json](snippets/sass.json)
+
+<br>
+<br>
+
+[Back to Table of Contents](#table-of-contents)
+<br>
+<br>
 
 <!----------------------------------------------------------->
 
@@ -192,6 +220,13 @@ Go to `Settings -> User Snippets`, open the appropriate language's json file and
     - [app.py](templates/python/pytorch/torchaudio/app.py)
       <br>
 
+<br>
+<br>
+
+[Back to Table of Contents](#table-of-contents)
+<br>
+<br>
+
 <!----------------------------------------------------------->
 
 [//]: # "SECURITY"
@@ -202,6 +237,13 @@ Go to `Settings -> User Snippets`, open the appropriate language's json file and
 
 - Templates contain placeholder IP addresses and ports. You will need to replace them for your specifications.
 - Same goes for placeholder usernames and passwords.
+
+<br>
+<br>
+
+[Back to Table of Contents](#table-of-contents)
+<br>
+<br>
 
 <!----------------------------------------------------------->
 
@@ -219,6 +261,13 @@ Go to `Settings -> User Snippets`, open the appropriate language's json file and
 
 [@ilya0x](https://github.com/ilya0x)
 
+<br>
+<br>
+
+[Back to Table of Contents](#table-of-contents)
+<br>
+<br>
+
 <!----------------------------------------------------------->
 
 [//]: # "THANKS"
@@ -228,6 +277,13 @@ Go to `Settings -> User Snippets`, open the appropriate language's json file and
 ## Thanks
 
 [@RichardLitt](https://github.com/RichardLitt) for the [standard-readme](https://github.com/RichardLitt/standard-readme) standard style creation.
+
+<br>
+<br>
+
+[Back to Table of Contents](#table-of-contents)
+<br>
+<br>
 
 <!----------------------------------------------------------->
 
@@ -246,5 +302,12 @@ Go to `Settings -> User Snippets`, open the appropriate language's json file and
 MIT License
 
 SEE LICENSE IN <a href="https://github.com/ilya0x/Templates-and-Snippets/blob/main/LICENSE.txt">LICENSE.txt</a>
+
+<br>
+<br>
+
+[Back to Table of Contents](#table-of-contents)
+<br>
+<br>
 
 <!----------------------------------------------------------->
